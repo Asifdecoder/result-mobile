@@ -6,8 +6,9 @@
   font-family: 'Hanken Grotesk', sans-serif;
 }
 .up {
-  background-color: hsl(241, 81%, 54%);
-  background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
+  /* background-color: hsl(241, 81%, 54%);
+  background-color: hsl(252, 100%, 67%); */
   /* border: 2px solid red; */
   width: 100%;
   min-height: 35vh;
@@ -54,7 +55,8 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
     border-radius: 73px;
-    background-color: hsla(256, 72%, 46%, 1);
+   
+    background-color: hsla(256, 72%, 46%, 0.2);
    
     
 }
